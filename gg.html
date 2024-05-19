@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="WWE">
+    
+    <img src="./Capture d'écran 2024-05-12 102803.png" alt="">
+    
+    <p>C'est avec une immense joie que nous vous accueillons au sein de notre communauté. Que vous soyez ici pour découvrir de nouvelles idées, élargir vos horizons ou simplement partager votre passion, nous sommes ravis de vous avoir parmi nous.
+
+        Chez nous, vous trouverez un espace où la créativité, la curiosité et le partage sont encouragés. Que vous soyez un expert chevronné ou un novice enthousiaste, chaque voix et chaque perspective sont précieuses.
+        
+        Nous espérons que votre expérience parmi nous sera enrichissante et inspirante. N'hésitez pas à explorer, à poser des questions, à échanger des idées et à créer des liens. Ensemble, nous pouvons construire un environnement où chacun peut s'épanouir et apprendre les uns des autres.
+        
+        Bienvenue à bord, et que cette aventure soit pleine de découvertes et de rencontres passionnantes !
+        </p>
+        <a href="hg.html">
+        <h4>
+        <button class="button">GET STARTED</button>
+        </h4>
+        </a>
+        <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
